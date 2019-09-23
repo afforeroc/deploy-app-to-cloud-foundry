@@ -1,19 +1,19 @@
-# Desplegar una aplicación web en Cloud Foundry de IBM Cloud
+# Deploy a web application in IBM Cloud Cloud Foundry
 
-> Presentación [Introducción a Cloud Foundry](https://ibm.box.com/v/cf-ppt)
+> Slides [Introducción a Cloud Foundry](https://ibm.box.com/v/cf-ppt)
 
-Este tutorial te indicará como desplegar una aplicación web sobre Cloud Foundry de IBM Cloud usando la ventana de comandos. Una vez la aplicación este desplegada, esta será accesible desde cualquier navegador web. 
+This tutorial will tell you how to deploy an IBM Cloud Cloud Foundry web application using the command window. Once the application is deployed, it will be accessible from any web browser.
 
-## Servicios Incluidos
-* [IBM Cloud - Cloud Foundry](https://www.ibm.com/cloud/cloud-foundry): Servicio en la nube que ejecuta código fuente en una plataforma como servicio (PaaS). Open source, serverless y altamente escalable.
+## Included services
+* [IBM Cloud - Cloud Foundry](https://www.ibm.com/cloud/cloud-foundry): Cloud service that runs source code on a platform as a service (PaaS). Open source, serverless and highly scalable.
 
-## Requisitos básicos
-* Ventana de comandos como `Terminal` o `PowerShell`
-* Editor de texto/código como `Notepad++` o `Visual Studio Code`
-* Cuenta activa de [IBM Cloud](https://console.bluemix.net)
+## Basic requirements
+* Command window as `Terminal` o `PowerShell`
+* Text or code editor as `Notepad++` o `Visual Studio Code`
+* Active account of [IBM Cloud](https://console.bluemix.net)
 
-## 1. Crear, probar y configurar la aplicación web
-Revisa cada uno de los siguientes tutoriales para configurar una aplicación web según el lenguaje/framework de tu preferencia:
+## 1. Create, test and configure the web application
+Review each of the following tutorials to configure a web application according to the language / framework of your preference:
 * Angular: https://github.com/afforeroc/angular-cf
 * Express: https://github.com/afforeroc/express-cf
 * Flask: https://github.com/afforeroc/flask-cf
@@ -21,23 +21,23 @@ Revisa cada uno de los siguientes tutoriales para configurar una aplicación web
 * React: https://github.com/afforeroc/react-cf
 * Vue.js: https://github.com/afforeroc/vuejs-cf
 
-## 2. Instalar IBM Cloud CLI
-Instala según tu sistema operativo
-* Instala en Mac/Linux: `$ curl -sL https://ibm.biz/idt-installer | bash`
-* Instala en Windows: https://clis.ng.bluemix.net/download/bluemix-cli/latest/win64
-* Verifica la versión del CLI: `$ ibmcloud -v`
+## 2. Install IBM Cloud CLI
+Install according to your operating system
+* Install on Mac / Linux: `$ curl -sL https://ibm.biz/idt-installer | bash`
+* Install on Windows: https://clis.ng.bluemix.net/download/bluemix-cli/latest/win64
+* Verify the CLI version: `$ ibmcloud -v`
 
-## 3. Iniciar sesión con IBM Cloud CLI
-Sigue las instrucciones interactivas del CLI en cada paso 
-* Inicia sesión en IBM Cloud: `$ ibmcloud login`
-* Apunta al espacio de trabajo de Cloud Foundry: `$ ibmcloud target --cf`
-* Si deseas hacer cambios a tu sesión: `$ ibmcloud target -r <REGION> -o <ORG> -s <SPACE>`
+## 3. Sign in with IBM Cloud CLI
+Follow the interactive instructions of the CLI at each step
+* Sign in to IBM Cloud: `$ ibmcloud login`
+* Target to the Cloud Foundry workspace: `$ ibmcloud target --cf`
+* If you want to make changes to your session: `$ ibmcloud target -r <REGION> -o <ORG> -s <SPACE>`
 
-## 4. Desplegar la aplicación usando el CLI
-* Posicionate en la carpeta raíz de la aplicación web
-* Sube la aplicación a Cloud Foundry de IBM Cloud: `$ ibmcloud app push`
-* Visualiza tu aplicación web accediendo al [Dashboard de IBM Cloud](https://console.bluemix.net/dashboard/apps)
+## 4. Deploy the application using the CLI
+* Position yourself in the root folder of the web application
+* Upload the application to IBM Cloud Cloud Foundry: `$ ibmcloud app push`
+* View your web application by accessing the [Dashboard de IBM Cloud](https://console.bluemix.net/dashboard/apps)
 
-## Links de interés:
-* Documentación de IBM Cloud CLI: https://console.bluemix.net/docs/cli/reference/ibmcloud/bx_cli.html#ibmcloud_cli
-* Documentación de Cloud Foundry: https://docs.cloudfoundry.org/
+## Links of interest
+* IBM Cloud CLI documentation: https://console.bluemix.net/docs/cli/reference/ibmcloud/bx_cli.html#ibmcloud_cli
+* Cloud Foundry Documentation: https://docs.cloudfoundry.org/
