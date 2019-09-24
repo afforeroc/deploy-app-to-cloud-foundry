@@ -1,11 +1,11 @@
-# Deploy a web application in IBM Cloud Cloud Foundry
+# Deploy a web application on Cloud Foundry Service
 
 > Slides [Introducción a Cloud Foundry](https://ibm.box.com/v/cf-ppt)
 
-This tutorial will tell you how to deploy an IBM Cloud Cloud Foundry web application using the command window. Once the application is deployed, it will be accessible from any web browser.
+This tutorial will tell you how to deploy a web application using the command window. Once the application is deployed, this will be accessible from any web browser.
 
 ## Included services
-* [IBM Cloud - Cloud Foundry](https://www.ibm.com/cloud/cloud-foundry): Cloud service that runs source code on a platform as a service (PaaS). Open source, serverless and highly scalable.
+* [IBM Cloud - Cloud Foundry](https://www.ibm.com/cloud/cloud-foundry): Cloud service runs source code on a platform as a service (PaaS). Open source, serverless and highly scalable service.
 
 ## Basic requirements
 * Command window as `Terminal` o `PowerShell`
@@ -13,7 +13,7 @@ This tutorial will tell you how to deploy an IBM Cloud Cloud Foundry web applica
 * Active account of [IBM Cloud](https://console.bluemix.net)
 
 ## 1. Create, test and configure the web application
-Review each of the following tutorials to configure a web application according to the language / framework of your preference:
+Review each of the following tutorials to configure a web application according to the language or framework of your preference:
 * Angular: https://github.com/afforeroc/angular-cf
 * Express: https://github.com/afforeroc/express-cf
 * Flask: https://github.com/afforeroc/flask-cf
@@ -22,8 +22,8 @@ Review each of the following tutorials to configure a web application according 
 * Vue.js: https://github.com/afforeroc/vuejs-cf
 
 ## 2. Install IBM Cloud CLI
-Install according to your operating system
-* Install on Mac / Linux: `$ curl -sL https://ibm.biz/idt-installer | bash`
+Install on respective operating system
+* Install on Mac or Linux: `$ curl -sL https://ibm.biz/idt-installer | bash`
 * Install on Windows: https://clis.ng.bluemix.net/download/bluemix-cli/latest/win64
 * Verify the CLI version: `$ ibmcloud -v`
 
