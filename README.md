@@ -1,5 +1,5 @@
 # Deploy a web app using Cloud Foundry of IBM Cloud
-This tutorial will tell you how to deploy a web application using the command window.<br> 
+Tutorial to learn how to deploy (step by step) a web app directly using Cloud Foundry service of IBM Cloud.
 Once the application is deployed, this will be accessible from any web browser.
 > Slides [Introducción a Cloud Foundry](https://ibm.box.com/v/cf-ppt)
 
