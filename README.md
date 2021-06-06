@@ -17,10 +17,7 @@ Most every steps require using of console commands except when is indicated.
 
 ### 1. Create and configure a web app to deploy on Cloud Foundry
 Review each of these following tutorials according to the language or framework of your preference.
-> JavaScript frameworks
 * [Create and configure an Express app to deploy on Cloud Foundry](https://github.com/afforeroc/express-cf)
-
-> Python frameworks
 * [Create and configure a Flask app to deploy on Cloud Foundry](https://github.com/afforeroc/flask-cf)
 
 
